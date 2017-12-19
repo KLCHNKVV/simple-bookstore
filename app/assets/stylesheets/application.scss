@@ -15,6 +15,7 @@
  *= require _bootstrap
  *= require _bootstrap-sprockets
  */
+
 @import "bootstrap";
 @import "bootstrap-sprockets";
 
@@ -172,4 +173,17 @@ body, body > p, body > ol, body > ul, body > td {
 {
   font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif serif;
   font-size: large;
+}
+
+.user_info
+{
+  text-align: right;
+  p{
+    font-family: "Helvetica Neue Light", "Lucida Grande", "Calibri", "Arial", sans-serif;
+    font-size: large;
+    color: black;
+  }
+  input{
+
+  }
 }

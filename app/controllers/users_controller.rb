@@ -28,7 +28,7 @@ class UsersController < ApplicationController
 
     respond_to do |format|
       if @user.save
-        format.html { redirect_to store_index_url, notice: "Your account was successfully registered, #{@user.name}." }
+        format.html { redirect_to login_url, notice: "Your account was successfully registered, #{@user.name}." }
         format.json { render :show, status: :created, location: @user }
       else
         format.html { render :new }
