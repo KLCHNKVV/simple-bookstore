@@ -1,0 +1,175 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require _bootstrap
+ *= require _bootstrap-sprockets
+ */
+@import "bootstrap";
+@import "bootstrap-sprockets";
+
+body, body > p, body > ol, body > ul, body > td {
+  margin: 8px !important
+}
+
+#banner {
+  opacity: 0.8;
+  position: relative;
+  min-height: 70px;
+  background: #ffd48f;
+  padding: 10px;
+  border-bottom: 4px solid;
+  font: small-caps 40px/40px "Times New Roman", serif;
+  color: #c4ff6e;
+  text-align: center;
+  border-radius: 5px;
+
+  img {
+    position: absolute;
+    border-radius: 15px;
+    top: 0;
+    left: 0;
+    width: 192px;
+  }
+}
+
+#notice {
+  color: #000 !important;
+  border: 2px solid red;
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: #f0f0f0;
+  font: bold smaller sans-serif;
+  font-size: large;
+}
+
+#notice:empty {
+  display: none;
+}
+
+#columns {
+  background: #a7ffbc;
+  display: flex;
+  #main {
+    padding: 1em;
+    background: $alert-success-bg;
+    flex: 1;
+  }
+
+  #side {
+    padding: 1em 2em;
+    border-radius: 6px;
+    opacity: 0.88;
+    background: #7777dd;
+
+    form, div {
+      display: inline;
+    }
+
+    input {
+      font-size: small;
+    }
+
+    #cart {
+      font-size: small;
+      color: black;
+    }
+
+    table {
+      border-top: 1px dotted #00ff02;
+      border-bottom: 1px dotted #00ff02;
+      margin-bottom: 10px;
+    }
+  }
+  ul {
+    padding: 0;
+    li {
+      list-style: none;
+      a {
+        opacity: 1;
+        color: #bfb;
+        font-size: large;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 800px) {
+  #columns {
+    flex-direction: column-reverse;
+  }
+}
+
+@media all and (max-width: 500px) {
+  #banner {
+    height: 1em;
+  }
+
+  #banner.title {
+    display: none;
+  }
+}
+
+.depot_form {
+  width: 45%;
+  fieldset {
+    background: cornflowerblue;
+    border-radius: 10px;
+    opacity: 0.9;
+  }
+
+  .checkout
+  {
+    float: right;
+    margin-right: 5em;
+  }
+
+  legend {
+    color: #dfd;
+    background: coral;
+    font-family: sans-serif;
+    padding: 0.2em 1em;
+    border-radius: 10px;
+    opacity: 0.8;
+    margin-bottom: 1.95em;
+  }
+
+  div {
+    margin-bottom: 0.3em;
+  }
+
+  form {
+    label {
+      width: 6em;
+      float: left;
+      text-align: right;
+      padding-top: 0.2em;
+      margin-right: 0.9em;
+      display: block;
+    }
+
+    select, textarea, input {
+      width: inherit;
+    }
+
+    br {
+      display: none;
+    }
+  }
+}
+
+.total_orders
+{
+  font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif serif;
+  font-size: large;
+}

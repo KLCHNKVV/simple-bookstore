@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Rails bookstore: production">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.4">
+    <root id="1"/>
+    <database id="2" parent="1" name="bookstore_db">
+      <ObjectId>16386</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="postgres">
+      <ObjectId>12297</ObjectId>
+    </database>
+    <schema id="4" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <IntrospectionTimestamp>2017-12-16.20:15:43.828</IntrospectionTimestamp>
+      <IntrospectionStateNumber>615</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="5" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="6" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="7" parent="2" name="pg_temp_1">
+      <ObjectId>11736</ObjectId>
+    </schema>
+    <schema id="8" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11737</ObjectId>
+    </schema>
+    <schema id="9" parent="2" name="information_schema">
+      <ObjectId>12006</ObjectId>
+    </schema>
+    <sequence id="10" parent="4" name="carts_id_seq">
+      <ObjectId>16481</ObjectId>
+      <StateNumber>607</StateNumber>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="11" parent="4" name="line_items_id_seq">
+      <ObjectId>16489</ObjectId>
+      <StateNumber>609</StateNumber>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="12" parent="4" name="products_id_seq">
+      <ObjectId>16499</ObjectId>
+      <StateNumber>613</StateNumber>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <table id="13" parent="4" name="ar_internal_metadata">
+      <ObjectId>16395</ObjectId>
+      <StateNumber>559</StateNumber>
+    </table>
+    <table id="14" parent="4" name="carts">
+      <ObjectId>16483</ObjectId>
+      <StateNumber>614</StateNumber>
+    </table>
+    <table id="15" parent="4" name="line_items">
+      <ObjectId>16491</ObjectId>
+      <StateNumber>615</StateNumber>
+    </table>
+    <table id="16" parent="4" name="products">
+      <ObjectId>16501</ObjectId>
+      <StateNumber>615</StateNumber>
+    </table>
+    <table id="17" parent="4" name="schema_migrations">
+      <ObjectId>16387</ObjectId>
+      <StateNumber>558</StateNumber>
+    </table>
+    <column id="18" parent="13" name="key">
+      <Position>1</Position>
+      <DataType>varchar|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>559</StateNumber>
+    </column>
+    <column id="19" parent="13" name="value">
+      <Position>2</Position>
+      <DataType>varchar|0</DataType>
+      <StateNumber>559</StateNumber>
+    </column>
+    <column id="20" parent="13" name="created_at">
+      <Position>3</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>559</StateNumber>
+    </column>
+    <column id="21" parent="13" name="updated_at">
+      <Position>4</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>559</StateNumber>
+    </column>
+    <index id="22" parent="13" name="ar_internal_metadata_pkey">
+      <ObjectId>16401</ObjectId>
+      <ColNames>key</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="23" parent="13" name="ar_internal_metadata_pkey">
+      <ObjectId>16402</ObjectId>
+      <ColNames>key</ColNames>
+      <UnderlyingIndexName>ar_internal_metadata_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="24" parent="14" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>607</StateNumber>
+      <SequenceName>carts_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;carts_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="25" parent="14" name="created_at">
+      <Position>2</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>607</StateNumber>
+    </column>
+    <column id="26" parent="14" name="updated_at">
+      <Position>3</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>607</StateNumber>
+    </column>
+    <index id="27" parent="14" name="carts_pkey">
+      <ObjectId>16487</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="28" parent="14" name="carts_pkey">
+      <ObjectId>16488</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>carts_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="29" parent="15" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>609</StateNumber>
+      <SequenceName>line_items_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;line_items_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="30" parent="15" name="product_id">
+      <Position>2</Position>
+      <DataType>bigint|0</DataType>
+      <StateNumber>609</StateNumber>
+    </column>
+    <column id="31" parent="15" name="cart_id">
+      <Position>3</Position>
+      <DataType>bigint|0</DataType>
+      <StateNumber>609</StateNumber>
+    </column>
+    <column id="32" parent="15" name="created_at">
+      <Position>4</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>609</StateNumber>
+    </column>
+    <column id="33" parent="15" name="updated_at">
+      <Position>5</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>609</StateNumber>
+    </column>
+    <index id="34" parent="15" name="line_items_pkey">
+      <ObjectId>16495</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="35" parent="15" name="index_line_items_on_product_id">
+      <ObjectId>16498</ObjectId>
+      <ColNames>product_id</ColNames>
+    </index>
+    <index id="36" parent="15" name="index_line_items_on_cart_id">
+      <ObjectId>16497</ObjectId>
+      <ColNames>cart_id</ColNames>
+    </index>
+    <key id="37" parent="15" name="line_items_pkey">
+      <ObjectId>16496</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>line_items_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="38" parent="15" name="fk_rails_11e15d5c6b">
+      <ObjectId>16515</ObjectId>
+      <ColNames>product_id</ColNames>
+      <RefTableId>16501</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>products</RefTableName>
+      <RefKeyName>products_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="39" parent="15" name="fk_rails_af645e8e5f">
+      <ObjectId>16510</ObjectId>
+      <ColNames>cart_id</ColNames>
+      <RefTableId>16483</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>carts</RefTableName>
+      <RefKeyName>carts_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="40" parent="16" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>613</StateNumber>
+      <SequenceName>products_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;products_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="41" parent="16" name="title">
+      <Position>2</Position>
+      <DataType>varchar|0</DataType>
+      <StateNumber>613</StateNumber>
+    </column>
+    <column id="42" parent="16" name="description">
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+      <StateNumber>613</StateNumber>
+    </column>
+    <column id="43" parent="16" name="image_url">
+      <Position>4</Position>
+      <DataType>varchar|0</DataType>
+      <StateNumber>613</StateNumber>
+    </column>
+    <column id="44" parent="16" name="price">
+      <Position>5</Position>
+      <DataType>numeric(8,2)|0</DataType>
+      <StateNumber>613</StateNumber>
+    </column>
+    <column id="45" parent="16" name="created_at">
+      <Position>6</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>613</StateNumber>
+    </column>
+    <column id="46" parent="16" name="updated_at">
+      <Position>7</Position>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>613</StateNumber>
+    </column>
+    <index id="47" parent="16" name="products_pkey">
+      <ObjectId>16508</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="48" parent="16" name="products_pkey">
+      <ObjectId>16509</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>products_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="49" parent="17" name="version">
+      <Position>1</Position>
+      <DataType>varchar|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>558</StateNumber>
+    </column>
+    <index id="50" parent="17" name="schema_migrations_pkey">
+      <ObjectId>16393</ObjectId>
+      <ColNames>version</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="51" parent="17" name="schema_migrations_pkey">
+      <ObjectId>16394</ObjectId>
+      <ColNames>version</ColNames>
+      <UnderlyingIndexName>schema_migrations_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

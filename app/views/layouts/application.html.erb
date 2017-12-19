@@ -1,0 +1,49 @@
+<html>
+<head>
+  <title>Your Bookshelf</title>
+  <%= csrf_meta_tags %>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
+
+<body class="<%= controller.controller_name %>">
+<div id="banner">
+  <%= link_to image_tag('logo.svg', alt: 'Your Bookshelf', size: '60x60'), store_index_path %>
+  <h1 style="color: dodgerblue;">Your Bookshelf</h1>
+  <span class="title"><%= @page_title %></span>
+  <% if session[:user_id] %>
+    <div class="user_info">
+      <p>Logged as</p><%=  %>
+      <%= button_to 'Logout', logout_path, method: :delete %>
+    </div>
+  <% end %>
+</div>
+<div id="columns">
+  <div id="side">
+    <div id="cart">
+      <% if @cart %>
+        <%= hidden_div_if @cart.line_items.empty?, id: 'cart' do %>
+          <%= render @cart %>
+        <% end %>
+      <% end %>
+    </div>
+    <ul>
+      <%= link_to 'Sign Up', user_new_path, style: 'font-size: larger; color: black', id: 'links' %> |
+      <%= link_to 'Log In', login_url, style: 'font-size: larger; color: black', id: 'links' %>
+      <br><br>
+      <li><a href="">Home</a></li>
+      <br>
+      <li><a href="">Questions</a></li>
+      <br>
+      <li><a href="">News</a></li>
+      <br>
+      <li><a href="">Contact</a></li>
+      <br>
+    </ul>
+  </div>
+  <div id="main">
+    <%= yield %>
+  </div>
+</div>
+</body>
+</html>
