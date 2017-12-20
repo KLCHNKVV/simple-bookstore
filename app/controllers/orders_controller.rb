@@ -54,7 +54,7 @@ class OrdersController < ApplicationController
 
 
   def destroy
-    OrderMailer.shipped(@order).deliver_later
+    OrderMailer.shipped(@order).deliver_now
     @order.destroy
     respond_to do |format|
       format.html { redirect_to orders_url, notice: "Order was successfully received by customer #{@order.name}." }

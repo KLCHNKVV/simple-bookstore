@@ -25,10 +25,11 @@ class UsersController < ApplicationController
   # POST /users.json
   def create
     @user = User.new(user_params)
-
     respond_to do |format|
       if @user.save
-        format.html { redirect_to login_url, notice: "Your account was successfully registered, #{@user.name}." }
+        @user.set_confirmation_token
+        UserMailer.registration_confirmation(@user).deliver_now
+        format.html { redirect_to login_url, notice: "Your account need to be confirmed by email letter, that we sent to you, #{@user.name}." }
         format.json { render :show, status: :created, location: @user }
       else
         format.html { render :new }
@@ -60,14 +61,23 @@ class UsersController < ApplicationController
     end
   end
 
+  def confirm_email
+    user = User.find_by_confirm_token(params[:confirm_token])
+    if user
+      user.validate_email
+      user.save
+      redirect_to store_index_url
+    else
+      redirect_to login_url
+    end
+  end
+
   private
-    # Use callbacks to share common setup or constraints between actions.
     def set_user
       @user = User.find(params[:id])
     end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
     def user_params
-      params.require(:user).permit(:name, :password, :password_confirmation)
+      params.require(:user).permit(:name, :password, :password_confirmation, :confirm_token, :email)
     end
 end
