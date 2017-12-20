@@ -3,6 +3,11 @@ class StoreController < ApplicationController
   before_action :set_cart
 
   def index
-    @products = Product.order(:title)
+    @products = Product.all
+    @search_products = if params[:search]
+                         Product.where('title LIKE ?', "%#{params[:search]}%")
+                       else
+                         Product.order(:title)
+                      end
   end
 end

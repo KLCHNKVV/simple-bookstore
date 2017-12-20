@@ -3,11 +3,11 @@
   <%= render cart.line_items %>
 
   <tr class="total_line success">
-    <td colspan="2" style="text-align: left; font-size: large">Total</td>
-    <td class="total_cell" style="font-size: large"><%= number_to_currency(cart.total_price) %></td>
+    <td colspan="2" style="text-align: left; font-size: medium">Total</td>
+    <td class="total_cell" style="font-size: medium"><%= number_to_currency(cart.total_price) %></td>
   </tr>
 
 </table>
 <%= button_to 'Checkout', new_order_path, method: :get, class: 'btn btn-success btn-lg' %>
-<%= button_to 'Empty cart', @cart, method: :delete, data: {confirm: 'Are you sure?'}, class: 'btn btn-danger btn-lg' %>
+<%= button_to 'Empty cart', @cart, method: :delete, class: 'btn btn-danger btn-lg' %>
 <br/><br/>

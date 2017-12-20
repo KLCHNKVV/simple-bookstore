@@ -18,13 +18,15 @@
 
 @import "bootstrap";
 @import "bootstrap-sprockets";
+@import "slick";
+@import "slick-theme";
 
 body, body > p, body > ol, body > ul, body > td {
   margin: 8px !important
 }
 
 #banner {
-  opacity: 0.8;
+  opacity: 0.78;
   position: relative;
   min-height: 70px;
   background: #ffd48f;
@@ -40,7 +42,7 @@ body, body > p, body > ol, body > ul, body > td {
     border-radius: 15px;
     top: 0;
     left: 0;
-    width: 192px;
+    width: 152px;
   }
 }
 
@@ -68,9 +70,10 @@ body, body > p, body > ol, body > ul, body > td {
   }
 
   #side {
+    width: 15em;
     padding: 1em 2em;
     border-radius: 6px;
-    opacity: 0.88;
+    opacity: 0.83;
     background: #7777dd;
 
     form, div {
@@ -183,7 +186,24 @@ body, body > p, body > ol, body > ul, body > td {
     font-size: large;
     color: black;
   }
-  input{
+  .scroller{
+    div{
+      background-size: cover;
+      text-align: center;
+      font-size: 30px;
+      position: relative;
+    }
+  }
 
+  .slick-prev::before, .slick-next::before {
+    color: #000;
+  }
+
+  .slick-next {
+    right: -15px;
+  }
+
+  .slick-prev {
+    left: -15px;
   }
 }

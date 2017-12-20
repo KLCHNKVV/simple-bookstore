@@ -11,19 +11,12 @@
     border-bottom: 3px solid #ffd6d1;
   }
 
-  .entry {
+  .search-entry {
+
     overflow: auto;
     margin-top: 1em;
-    border-bottom: 4px dotted #77d;
+    border-bottom: 6px double #7058ff;
     min-height: 100px;
-
-    #book_image:hover {
-      transform: scale(1.1);
-    }
-
-    #book_image {
-      transition: all .3s ease-in-out;
-    }
 
     #book_desc {
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -31,7 +24,7 @@
     }
 
     img {
-      width: 200px;
+      width: 150px;
       margin-right: 5px;
       margin-bottom: 5px;
       border-radius: 15px;
@@ -64,6 +57,74 @@
       color: #44a;
       font-weight: bold;
       margin-right: 3em;
+    }
+
+    .genre {
+      color: #ff9764;
+      font-family: "Bitstream Vera Sans Mono", sans-serif;
+      font-size: xx-large;
+    }
+  }
+
+  .entry {
+    overflow: auto;
+    margin-top: 1em;
+    border-bottom: 3px dotted #77d;
+    min-height: 100px;
+
+    #book_image:hover {
+      transform: scale(1.1);
+    }
+
+    #book_image {
+      transition: all .3s ease-in-out;
+    }
+
+    #book_desc {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: large;
+    }
+
+    img {
+      width: 150px;
+      margin-right: 5px;
+      margin-bottom: 5px;
+      border-radius: 15px;
+      float: left;
+      z-index: 1;
+    }
+
+    h3 {
+      font-size: 120%;
+      font-family: sans-serif;
+      margin-left: 100px;
+      margin-top: 0;
+      margin-bottom: 2px;
+      color: #ff6d50;
+    }
+
+    p, div.price_line {
+      margin-left: 100px;
+      margin-top: 0.5em;
+      margin-bottom: 0.8em;
+
+      form, div {
+        float: right;
+        display: inline;
+        margin-bottom: 5px;
+      }
+    }
+
+    .price {
+      color: #44a;
+      font-weight: bold;
+      margin-right: 3em;
+    }
+
+    .genre {
+      color: #ff9764;
+      font-family: "Bitstream Vera Sans Mono", sans-serif;
+      font-size: xx-large;
     }
   }
 }

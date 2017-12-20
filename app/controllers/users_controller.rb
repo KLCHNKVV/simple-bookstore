@@ -61,12 +61,13 @@ class UsersController < ApplicationController
     end
   end
 
+
   def confirm_email
     user = User.find_by_confirm_token(params[:confirm_token])
     if user
       user.validate_email
       user.save
-      redirect_to store_index_url
+      redirect_to store_index_url, notice: 'Your account was successfully confirmed'
     else
       redirect_to login_url
     end

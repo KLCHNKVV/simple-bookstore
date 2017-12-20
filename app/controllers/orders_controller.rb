@@ -1,6 +1,6 @@
 class OrdersController < ApplicationController
   include CurrentCart
-  before_action :authorize
+  before_action :authorize, :except => [:new, :create]
   before_action :set_cart, only: [:new, :create]
   before_action :ensure_cart_inst_empty, only: :new
   before_action :set_order, only: [:show, :edit, :update, :destroy]
@@ -27,7 +27,7 @@ class OrdersController < ApplicationController
     @order.add_line_items_from_cart(@cart)
     respond_to do |format|
       if @order.save
-        OrderMailer.received(@order).deliver_later
+        OrderMailer.received(@order).deliver_now
         Cart.destroy(session[:cart_id])
         session[:cart_id] = nil
         format.html { redirect_to store_index_url, notice: 'Thanks for your order. Await futher instructions at email.' }

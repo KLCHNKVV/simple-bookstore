@@ -1,5 +1,5 @@
 class ProductsController < ApplicationController
-  before_action :authorize
+  before_action :authorize, except: [:index]
   before_action :set_product, only: [:show, :edit, :update, :destroy]
 
   def who_bought
@@ -67,6 +67,6 @@ class ProductsController < ApplicationController
   end
 
   def product_params
-    params.require(:product).permit(:title, :description, :image_url, :price, :genre)
+    params.require(:product).permit(:title, :description, :image_url, :price, :genre, :search)
   end
 end

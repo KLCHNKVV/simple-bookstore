@@ -20,6 +20,19 @@
     </div>
   <% end %>
 </div>
+<% content_for :head do %>
+  <meta name="turbolinks-cache-control" content="no-cache">
+<% end %>
+<div class="scroller" style="height:620px">
+  <div><%= image_tag 'http://www.businessexchange.ca/wp-content/uploads/2016/08/maxresdefault.jpg', alt: 'Grand Opening',
+                     class: 'opening-image', size: '1895x640', style: 'border-radius: 20px' %></div>
+  <div><%= image_tag("https://intervpn.com/blog/wp-content/uploads/2016/12/new-year-best-vpn-2017-deals-860x395.png",
+                     class: 'new-year-image', size: '1895x640', style: 'border-radius: 20px') %></div>
+  <div>
+    <%= image_tag 'https://cdn.shopify.com/s/files/1/0736/8771/products/W4P-BOOKSHELF-002_8b58f04d-3cb7-4e66-bc84-a2ba0bd2af79.jpg?v=1442583418', alt: 'Bookshelf',
+                  style: 'border-radius: 20px', size: '1896x640' %>
+  </div>
+</div>
 <div id="columns">
   <div id="side">
     <div id="cart">
@@ -30,9 +43,6 @@
       <% end %>
     </div>
     <ul>
-      <%= link_to 'Sign Up', user_new_path, style: 'font-size: larger; color: black', id: 'links' %> |
-      <%= link_to 'Log In', login_url, style: 'font-size: larger; color: black', id: 'links' %>
-      <br><br>
       <li><a href="">Home</a></li>
       <br>
       <li><a href="">Questions</a></li>
@@ -40,6 +50,11 @@
       <li><a href="">News</a></li>
       <br>
       <li><a href="">Contact</a></li>
+      <br>
+      <div>
+        <%= link_to 'Sign Up', user_new_path, style: 'font-size: medium; color: black', id: 'links' %>
+        <%= link_to 'Log In', login_url, style: 'font-size: medium; color: black', id: 'links' %>
+      </div>
       <br>
     </ul>
   </div>

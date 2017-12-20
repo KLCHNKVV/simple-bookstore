@@ -36,6 +36,14 @@ class Product < ApplicationRecord
       message: 'Must be a URL for GIF, JPG, JPEG or PNG image.'
   }
 
+  def self.search(search)
+    if search
+      find(:all, :conditions => [':title LIKE ?', "%#{search}"])
+    else
+      Product.all
+    end
+  end
+
   private
 
   def ensure_not_referenced_by_any_line_item
