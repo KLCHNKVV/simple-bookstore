@@ -21,6 +21,7 @@
     </inspection_tool>
     <inspection_tool class="JSJQueryEfficiency" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="RailsChecklist01" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="Rubocop" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="RubyClassModuleNamingConvention" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="RubyInstanceMethodNamingConvention" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="RubySimplifyBooleanInspection" enabled="false" level="WARNING" enabled_by_default="false" />

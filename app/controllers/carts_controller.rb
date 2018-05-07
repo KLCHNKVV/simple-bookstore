@@ -68,7 +68,6 @@ class CartsController < ApplicationController
       @cart = Cart.find(params[:id])
     end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
     def cart_params
       params.fetch(:cart, {})
     end

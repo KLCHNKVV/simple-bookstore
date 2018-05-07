@@ -5,7 +5,7 @@ class StoreController < ApplicationController
   def index
     @products = Product.all
     @search_products = if params[:search]
-                         Product.where('title LIKE ?', "%#{params[:search]}%")
+                         [Product.where('title LIKE ?', "%#{params[:search]}%")][0]
                        else
                          Product.order(:title)
                       end

@@ -7,7 +7,7 @@
       <%= text_field_tag :search, params[:search], class: 'form-control', style: 'width: inherit' %>
       <% @search_products.each do |product| %>
         <% cache product do %>
-          <div class="search-entry">
+          <div class="entry">
             <%= image_tag(product.image_url, id: 'book_image', class: 'img-circle') %>
             <h3><%= product.title %></h3>
             <br/>
@@ -27,11 +27,11 @@
     </div>
   <% end %>
 </div>
-<h1>Your Bookshelf</h1>
+<h1>Your result</h1>
 <% cache @products do %>
   <% @products.each do |product| %>
     <% cache product do %>
-      <div class="entry ">
+      <div class="entry">
         <%= image_tag(product.image_url, id: 'book_image', class: 'img-circle') %>
         <h3><%= product.title %></h3>
         <br/>

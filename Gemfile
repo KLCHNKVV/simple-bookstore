@@ -19,6 +19,7 @@ gem 'bcrypt'
 gem 'devise'
 gem 'rails_admin'
 
+
 gem 'turbolinks'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'

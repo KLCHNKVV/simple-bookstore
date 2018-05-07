@@ -29,7 +29,7 @@ body, body > p, body > ol, body > ul, body > td {
   opacity: 0.78;
   position: relative;
   min-height: 70px;
-  background: #ffd48f;
+  background-image: linear-gradient(90deg, #30e8bf, #ff8235);
   padding: 10px;
   border-bottom: 4px solid;
   font: small-caps 40px/40px "Times New Roman", serif;
@@ -65,7 +65,7 @@ body, body > p, body > ol, body > ul, body > td {
   display: flex;
   #main {
     padding: 1em;
-    background: $alert-success-bg;
+    background: whitesmoke;
     flex: 1;
   }
 
@@ -74,7 +74,7 @@ body, body > p, body > ol, body > ul, body > td {
     padding: 1em 2em;
     border-radius: 6px;
     opacity: 0.83;
-    background: #7777dd;
+    background-image: linear-gradient(90deg, #48c6ef, #6f86d6);
 
     form, div {
       display: inline;
