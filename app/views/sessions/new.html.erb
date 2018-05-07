@@ -1,6 +1,6 @@
 <div class="form-group depot_form">
   <p id="notice"><%= flash[:alert] %></p>
-
+  <p id="notice"><%= flash[:notice] %></p>
   <%= form_tag do %>
     <fieldset>
       <legend>Log In</legend>
@@ -19,4 +19,7 @@
       </div>
     </fieldset>
   <% end %>
+  <div>
+    <%= button_to 'Are you administrator? Enter Site Administration', rails_admin_url, method: :get, class: 'btn btn-primary btn-md' %>
+  </div>
 </div>

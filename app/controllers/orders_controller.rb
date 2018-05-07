@@ -54,8 +54,8 @@ class OrdersController < ApplicationController
 
 
   def destroy
-    OrderMailer.shipped(@order).deliver_now
     @order.destroy
+    OrderMailer.shipped(@order).deliver_now
     respond_to do |format|
       format.html { redirect_to orders_url, notice: "Order was successfully received by customer #{@order.name}." }
       format.json { head :no_content }

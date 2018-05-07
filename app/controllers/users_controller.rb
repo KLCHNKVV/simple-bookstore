@@ -29,7 +29,7 @@ class UsersController < ApplicationController
       if @user.save
         @user.set_confirmation_token
         UserMailer.registration_confirmation(@user).deliver_now
-        format.html { redirect_to login_url, notice: "Your account need to be confirmed by email letter, that we sent to you, #{@user.name}." }
+        format.html { redirect_to login_url, notice: "Your account need to be confirmed by your email(#{@user.email}) with letter, that we sent to you, #{@user.name}." }
         format.json { render :show, status: :created, location: @user }
       else
         format.html { render :new }

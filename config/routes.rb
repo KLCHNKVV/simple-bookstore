@@ -19,6 +19,9 @@ Rails.application.routes.draw do
     get :who_bought, on: :member
   end
 
-  get '/:token/confirm_email', :to => 'users#confirm_email', as: 'confirm_email'
-
+  resources :users do
+    member do
+      get :confirm_email
+    end
+  end
 end

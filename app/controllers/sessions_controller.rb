@@ -5,11 +5,11 @@ class SessionsController < ApplicationController
 
   def create
     user = User.find_by(name: params[:name])
-    if user.try(:authenticate, params[:password])
+    if user.try(:authenticate, params[:password]) && user.email_confirmed
       session[:user_id] = user.id
       redirect_to store_index_url
     else
-      redirect_to login_url, alert: 'Invalid  user/password combination'
+      redirect_to login_url, alert: 'Invalid user/password combination'
     end
   end
 

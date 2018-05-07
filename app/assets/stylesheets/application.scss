@@ -48,6 +48,16 @@ body, body > p, body > ol, body > ul, body > td {
 
 #notice {
   color: #000 !important;
+  border: 2px solid #65ff7a;
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: #f0f0f0;
+  font: bold smaller sans-serif;
+  font-size: large;
+}
+
+#error {
+  color: #000 !important;
   border: 2px solid red;
   padding: 1em;
   margin-bottom: 2em;
@@ -180,11 +190,15 @@ body, body > p, body > ol, body > ul, body > td {
 
 .user_info
 {
+  input{
+    height: auto;
+    width: 150px;
+  }
   text-align: right;
   p{
-    font-family: "Helvetica Neue Light", "Lucida Grande", "Calibri", "Arial", sans-serif;
+    font-family: "Bitstream Vera Sans Mono", sans-serif;
     font-size: large;
-    color: black;
+    color: #31ff32;
   }
   .scroller{
     div{
