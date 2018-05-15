@@ -71,40 +71,60 @@ body, body > p, body > ol, body > ul, body > td {
 }
 
 #columns {
-  background: #a7ffbc;
+  background: #c21500;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(90deg, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(90deg, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   display: flex;
+  a{
+    margin-left: 20px;
+  }
   #main {
     padding: 1em;
     background: whitesmoke;
     flex: 1;
   }
 
-  #side {
-    width: 15em;
-    padding: 1em 2em;
-    border-radius: 6px;
-    opacity: 0.83;
-    background-image: linear-gradient(90deg, #48c6ef, #6f86d6);
-
-    form, div {
-      display: inline;
-    }
-
-    input {
-      font-size: small;
-    }
-
-    #cart {
-      font-size: small;
-      color: black;
-    }
-
-    table {
-      border-top: 1px dotted #00ff02;
-      border-bottom: 1px dotted #00ff02;
-      margin-bottom: 10px;
-    }
+  .side {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
   }
+
+  .side a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .side a:hover {
+    color: #f1f1f1;
+  }
+
+  .side .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: larger;
+    margin-left: 50px;
+  }
+
+
+  @media screen and (max-height: 450px) {
+    .side {padding-top: 15px;}
+    .side a {font-size: 18px;}
+  }
+
   ul {
     padding: 0;
     li {
@@ -115,6 +135,13 @@ body, body > p, body > ol, body > ul, body > td {
         font-size: large;
       }
     }
+  }
+}
+
+#signup{
+  a{
+    font-size: medium;
+    color: #31ff32;
   }
 }
 

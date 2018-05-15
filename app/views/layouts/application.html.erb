@@ -22,6 +22,7 @@
 </div>
 <div id="columns">
   <div id="side">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="margin-left: 250px">X</a>
     <div id="cart">
       <% if @cart %>
         <%= hidden_div_if @cart.line_items.empty?, id: 'cart' do %>
@@ -38,16 +39,30 @@
       <br>
       <div id="logon_menu">
         <div id="signup">
-          <%= link_to 'Sign Up', user_new_path, style: 'font-size: medium; color: black', id: 'links' %>
+          <%= link_to 'Sign Up', user_new_path, id: 'links' %>
+          <%= link_to 'Log In', login_url, id: 'links' %>
         </div>
-        <%= link_to 'Log In', login_url, style: 'font-size: medium; color: black', id: 'links' %>
       </div>
       <br>
     </ul>
   </div>
   <div id="main">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
     <%= yield %>
   </div>
 </div>
+
+<script>
+    function openNav() {
+        document.getElementById("side").style.width = "150px";
+        document.getElementById("main").style.marginLeft = "150px";
+    }
+
+    function closeNav() {
+        document.getElementById("side").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+    }
+</script>
+
 </body>
 </html>
