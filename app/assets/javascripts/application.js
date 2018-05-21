@@ -16,5 +16,6 @@
 //= require jquery-ui/effect-blind
 //= require jquery_ujs
 //= require rails-ujs
+//= require bootstrap-modal
 //= require turbolinks
 //= require_tree .

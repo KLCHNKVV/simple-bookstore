@@ -19,7 +19,7 @@
       <introspection-schemas>bookstore_db:public</introspection-schemas>
     </data-source>
     <data-source name="Rails bookstore: development" uuid="ced61e56-be00-4b0e-9b29-fcf2accb6670">
-      <database-info product="PostgreSQL" version="10.1" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.1.1">
+      <database-info product="PostgreSQL" version="10.4" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.1.1">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />

@@ -1,8 +1,12 @@
 <h3>Your Bookshelf Inc. Store Order Received</h3>
 <p>
-  This is just to let you know that you should receive in order:
+  Dear, <%= @order.name %> !
+  This is letter just to let you know that you should receive in order:
 </p>
 <table>
-  <tr><th>Qty</th><th>Description</th></tr>
-  <%= render @order.line_items -%>
+  <tr>
+    <th>Qty</th>
+    <th>Description</th>
+  </tr>
+  <%= render @order.line_items %>
 </table>

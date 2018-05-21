@@ -38,7 +38,7 @@
       <li><a href="">Contact</a></li>
       <br>
       <div id="logon_menu">
-        <div id="signup">
+        <div id="signup" style="border: 2px black solid; margin-left: 10px; margin-right: 60px">
           <%= link_to 'Sign Up', user_new_path, id: 'links' %>
           <%= link_to 'Log In', login_url, id: 'links' %>
         </div>
@@ -54,8 +54,8 @@
 
 <script>
     function openNav() {
-        document.getElementById("side").style.width = "150px";
-        document.getElementById("main").style.marginLeft = "150px";
+        document.getElementById("side").style.width = "130px";
+        document.getElementById("main").style.marginLeft = "130px";
     }
 
     function closeNav() {

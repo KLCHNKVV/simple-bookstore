@@ -2,7 +2,10 @@
 <p>
   This is just to let you know that we've shipped your recent order:
 </p>
-<table>
-  <tr><th colspan="2">Qty</th><th>Description</th></tr>
+<p>
+  If You want to cancel this order. Click on URL below: <%= destroy_order @order.id %>
+</p>
+<table style="border: 1px solid black; border-collapse: collapse; width: 100%; height: 100%">
+  <tr style="border: 1px solid black; border-collapse: collapse; width: 100%; height: 100%"><th colspan="2">Qty</th><th>Description</th></tr>
   <%= render @order.line_items -%>
 </table>

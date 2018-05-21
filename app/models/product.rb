@@ -26,6 +26,12 @@ class Product < ApplicationRecord
 
   has_many :line_items
   has_many :orders, through: :line_items
+
+  searchable do
+    text :title, :boost => 5
+    text :genre
+  end
+
   before_destroy :ensure_not_referenced_by_any_line_item
 
   validates :price, :title, :description, :image_url, :genre, presence: true
@@ -35,14 +41,6 @@ class Product < ApplicationRecord
       with: %r{\.(gif|jpg|png|jpeg)\Z}i,
       message: 'Must be a URL for GIF, JPG, JPEG or PNG image.'
   }
-
-  def self.search(search)
-    if search
-      find(:all, :conditions => [':title LIKE ?', "%#{search}"])
-    else
-      Product.all
-    end
-  end
 
   private
 

@@ -1,52 +1,32 @@
 <p id="notice" style="font-size: large"><%= notice %></p>
   <%= form_tag store_index_path, method: 'get', action: 'index', controller: 'products', class: 'form-group' do %>
-    <div class="row" style="margin-left: 5px">
-      <%= submit_tag 'Search Book', title: nil, class: 'btn btn-success btn-md form-control', style: 'width: inherit' %>
-      <br><br>
-      <%= text_field_tag :search, params[:search], class: 'form-control', style: 'width: inherit' %>
-      <% cache @search_products do %>
-      <% @search_products.each do |product| %>
-        <% cache product do %>
-          <div class="entry">
-            <%= image_tag(product.image_url, id: 'book_image', class: 'img-circle') %>
-            <h3><%= product.title %></h3>
-            <br/>
-            <div id="book_desc">
-              <%= sanitize(product.description) %>
-            </div>
-            <div class="genre">
-              Genre: <%= product.genre %>
-            </div>
-            <div class="price_line">
-              <span class="price"><%= number_to_currency(product.price) %></span>
-              <%= button_to 'Add To Cart', line_items_path(product_id: product), class: 'btn btn-primary btn-md' %>
-            </div>
-          </div>
-          <% end %>
-        <% end %>
-      <% end %>
-    </div>
-  <% end %>
 
-<h1>Your result</h1>
-<% cache @products do %>
-  <% @products.each do |product| %>
-    <% cache product do %>
-      <div class="entry">
-        <%= image_tag(product.image_url, id: 'book_image', class: 'img-circle') %>
-        <h3><%= product.title %></h3>
-        <br/>
-        <div id="book_desc">
-          <%= sanitize(product.description) %>
+  <%= form_tag products_path, :method => :get do %>
+    <p>
+      <%= text_field_tag :search, params[:search], class: 'form-control', style: 'width: inherit', placeholder: 'Enter title or genre' %>
+      <br>
+      <%= submit_tag "Search", :name => nil, class: 'btn btn-success btn-md form-control', style: 'width:inherit' %>
+    </p>
+  <% end %>
+  <% cache @products do %>
+    <% @products.each do |product| %>
+      <% cache product do %>
+        <div class="entry">
+          <%= image_tag(product.image_url, id: 'book_image', class: 'img-circle') %>
+          <h3><%= product.title %></h3>
+          <br/>
+          <div id="book_desc">
+            <%= sanitize(product.description) %>
+          </div>
+          <div class="genre">
+            Genre: <%= product.genre %>
+          </div>
+          <div class="price_line">
+            <span class="price"><%= number_to_currency(product.price) %></span>
+            <%= button_to 'Add To Cart', line_items_path(product_id: product), class: 'btn btn-primary btn-md' %>
+          </div>
         </div>
-        <div class="genre">
-          Genre: <%= product.genre %>
-        </div>
-        <div class="price_line">
-          <span class="price"><%= number_to_currency(product.price) %></span>
-          <%= button_to 'Add To Cart', line_items_path(product_id: product), class: 'btn btn-primary btn-md' %>
-        </div>
-      </div>
+      <% end %>
     <% end %>
   <% end %>
-<% end %>
+  <% end %>
