@@ -1,8 +1,13 @@
 class User < ApplicationRecord
+
   validates :name, presence: true, uniqueness: true
   validates :password, length: { minimum: 6 }
 
+  before_save {self.email = email.downcase}
   has_secure_password
+
+  VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+  validates :email, presence: true, format: { with: VALID_EMAIL_REGEX }
 
   def User.new_remember_token
     SecureRandom.urlsafe_base64

@@ -16,6 +16,7 @@ class OrdersController < ApplicationController
 
   def new
     @order = Order.new
+    @order_user = User.find_by(id: session[:user_id])
   end
 
 

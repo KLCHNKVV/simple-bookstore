@@ -10,8 +10,8 @@
 <div id="banner">
   <%= link_to image_tag('logo.svg', alt: 'Your Bookshelf', size: '60x60'), store_index_path %>
   <div id="contact_info">
-    <p><a href="tel: +375293543299">+ 375 (29) 364-32-99</a></p>
-    <p><a href="mailto:klchnkvv@gmail.com">BookShelf Email</a></p>
+    <p><a href="tel:+375293543299" target="_blank">+ 375 (29) 364-32-99</a></p>
+    <p><a href="mailto:klchnkvv@gmail.com" target="_blank">BookShelf Email</a></p>
   </div>
   <h1 style="color: dodgerblue;">Your Bookshelf</h1>
   <span class="title"><%= @page_title %></span>
@@ -19,7 +19,7 @@
     <div class="user_info">
       <% sign_in(User.find_by(id: session[:user_id])) %>
       <% current_user = User.find_by(id: session[:user_id]) %>
-      <p id="banner">Logged as <%= current_user.name %></p>
+      <p id="banner">Logged as <%= link_to current_user.name, user_path(session[:user_id]) %></p>
       <%= button_to 'Logout', logout_path, method: :delete, class: 'btn btn-primary btn-lg' %>
     </div>
   <% end %>

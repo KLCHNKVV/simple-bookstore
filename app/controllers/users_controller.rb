@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+before_action :set_user, only: [:update]
 
   # GET /users
   # GET /users.json
@@ -9,6 +10,7 @@ class UsersController < ApplicationController
   # GET /users/1
   # GET /users/1.json
   def show
+    @user = User.find(params[:id])
   end
 
   # GET /users/new
@@ -18,6 +20,7 @@ class UsersController < ApplicationController
 
   # GET /users/1/edit
   def edit
+    @user = User.find(params[:id])
   end
 
   # POST /users
@@ -39,9 +42,11 @@ class UsersController < ApplicationController
 
 
   def update
+    @user = User.find params[:id]
     respond_to do |format|
       if @user.update(user_params)
-        format.html { redirect_to users_url, notice: "User #{@user.name} profile was successfully updated." }
+        @user.save
+        format.html { redirect_to store_index_url, notice: "User #{@user.name} profile was successfully updated." }
         format.json { render :show, status: :ok, location: @user }
       else
         format.html { render :edit }
@@ -75,6 +80,6 @@ class UsersController < ApplicationController
     end
 
     def user_params
-      params.require(:user).permit(:name, :password, :password_confirmation, :confirm_token, :email)
+      params.require(:user).permit(:id, :name, :password, :password_confirmation, :confirm_token, :email)
     end
 end

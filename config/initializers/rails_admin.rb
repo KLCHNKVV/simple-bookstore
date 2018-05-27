@@ -6,7 +6,7 @@ RailsAdmin.config do |config|
     end
   end
 
-  config.included_models = [Product, User, Order]
+  config.included_models = [Product, User, Order, LineItem]
 
   config.actions do
     dashboard

@@ -18,7 +18,6 @@ gem 'jbuilder', '~> 2.5'
 gem 'bcrypt'
 gem 'devise'
 gem 'rails_admin'
-gem 'mocha'
 gem 'turbolinks'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
@@ -43,3 +42,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'mocha', group: :test
+ruby "2.5.0"
