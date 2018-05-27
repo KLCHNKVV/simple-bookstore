@@ -1,5 +1,4 @@
 class UsersController < ApplicationController
-  before_action :set_user, only: [:show, :edit, :update, :destroy]
 
   # GET /users
   # GET /users.json
@@ -25,9 +24,9 @@ class UsersController < ApplicationController
   # POST /users.json
   def create
     @user = User.new(user_params)
+    @user.set_confirmation_token
     respond_to do |format|
       if @user.save
-        @user.set_confirmation_token
         UserMailer.registration_confirmation(@user).deliver_now
         format.html { redirect_to login_url, notice: "Your account need to be confirmed by your email(#{@user.email}) with letter, that we sent to you, #{@user.name}." }
         format.json { render :show, status: :created, location: @user }
@@ -61,10 +60,9 @@ class UsersController < ApplicationController
 
 
   def confirm_email
-    user = User.find_by_confirm_token(params[:confirm_token])
+    user = User.find_by_confirm_token(params[:id])
     if user
       user.validate_email
-      user.save
       redirect_to store_index_url, notice: 'Your account was successfully confirmed'
     else
       redirect_to login_url

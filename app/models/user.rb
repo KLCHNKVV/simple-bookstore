@@ -1,6 +1,6 @@
 class User < ApplicationRecord
   validates :name, presence: true, uniqueness: true
-  validates :email, confirmation: true
+  validates :password, length: { minimum: 6 }
 
   has_secure_password
 
@@ -17,6 +17,7 @@ class User < ApplicationRecord
   def validate_email
     self.email_confirmed = true
     self.confirm_token = nil
+    save!(:validate => false)
   end
 
   private

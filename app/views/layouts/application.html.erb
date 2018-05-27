@@ -9,6 +9,10 @@
 <body class="<%= controller.controller_name %>">
 <div id="banner">
   <%= link_to image_tag('logo.svg', alt: 'Your Bookshelf', size: '60x60'), store_index_path %>
+  <div id="contact_info">
+    <p><a href="tel: +375293543299">+ 375 (29) 364-32-99</a></p>
+    <p><a href="mailto:klchnkvv@gmail.com">BookShelf Email</a></p>
+  </div>
   <h1 style="color: dodgerblue;">Your Bookshelf</h1>
   <span class="title"><%= @page_title %></span>
   <% if session[:user_id] %>
@@ -31,7 +35,7 @@
       <% end %>
     </div>
     <ul>
-      <li><a href="">Questions</a></li>
+      <li><a href="">Reviews</a></li>
       <br>
       <li><a href="">News</a></li>
       <br>

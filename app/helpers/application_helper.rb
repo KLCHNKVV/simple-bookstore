@@ -28,4 +28,10 @@ module ApplicationHelper
   def User.digest(token)
     Digest::SHA1.hexdigest(token.to_s)
   end
+
+  def sortable(column, title = 'nil')
+    title ||= column.titleize
+    direction = column == params[:sort] && params[:direction] == 'asc' ? 'desc' : 'asc'
+    link_to title, :sort => column, :direction => direction
+  end
 end
