@@ -22,6 +22,8 @@ gem 'turbolinks'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'jquery-slick-rails'
+gem 'sunspot_rails'
+
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -29,8 +31,10 @@ group :development, :test do
 end
 
 group :development do
-  gem 'sunspot_rails'
+  gem 'rails-erd'
+  gem 'railroady'
   gem 'sunspot_solr'
+  gem 'sunspot'
   gem 'nifty-generators'
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '>= 3.0.5', '< 3.2'
