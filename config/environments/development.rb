@@ -54,14 +54,14 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
   config.action_mailer.perform_deliveries = true
-  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+  config.action_mailer.default_url_options = { :host => 'https://your-bookshelf.herokuapp.com' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
-      :address              => 'smtp.gmail.com',
+      :address              => 'smtp.sendgrid.net',
       :port                 => 587,
-      :domain               => 'gmail.com',
-      :user_name            => 'klchnkvv@gmail.com',
-      :password             => 'ariastalver476dc7991cde_rfvbgt',
+      :domain               => 'heroku.com',
+      :user_name            => ENV['SENDGRID_USERNAME'],
+      :password             => ENV['SENDGRID_PASSWORD'],
       :authentication       => 'plain',
       :enable_starttls_auto => true
   }
