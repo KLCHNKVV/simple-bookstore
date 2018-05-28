@@ -2,7 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6373daa8-29ad-495e-8b26-f42fb5d4347b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+      <change beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_0.fdt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_0.fdx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_0.fnm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_0.nvd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_0.nvm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_0.si" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_0_Lucene50_0.doc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_0_Lucene50_0.pos" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_0_Lucene50_0.tim" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_0_Lucene50_0.tip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_2.fdt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_2.fdx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_2.fnm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_2.nvd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_2.nvm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_2.si" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_2_Lucene50_0.doc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_2_Lucene50_0.pos" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_2_Lucene50_0.tim" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_2_Lucene50_0.tip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_4.fdt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_4.fdx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_4.fnm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_4.nvd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_4.nvm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_4.si" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_4_Lucene50_0.doc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_4_Lucene50_0.pos" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_4_Lucene50_0.tim" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_4_Lucene50_0.tip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_7.fdt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_7.fdx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_7.fnm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_7.nvd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_7.nvm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_7.si" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_7_Lucene50_0.doc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_7_Lucene50_0.pos" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_7_Lucene50_0.tim" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_7_Lucene50_0.tip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/development/data/index/segments_9" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/solr/pids/development/sunspot-solr-development.pid" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/orders/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
-              <caret line="2" column="44" lean-forward="true" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+              <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -76,7 +118,7 @@
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="5">
-              <caret line="3" column="72" lean-forward="true" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
+              <caret line="3" column="72" lean-forward="false" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -116,23 +158,23 @@
         <entry file="file://$PROJECT_DIR$/Gemfile.lock">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+              <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rakefile" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Rakefile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="76">
+              <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="production.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
@@ -146,7 +188,7 @@
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="271">
-              <caret line="55" column="51" lean-forward="true" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
+              <caret line="55" column="51" lean-forward="false" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -216,8 +258,8 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/Rakefile" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/Rakefile" />
       </list>
     </option>
   </component>
@@ -256,16 +298,6 @@
             <path>
               <item name="simple-bookstore" type="b2602c69:ProjectViewProjectNode" />
               <item name="simple-bookstore" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simple-bookstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simple-bookstore" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="simple-bookstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="simple-bookstore" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -446,16 +478,15 @@
       <workItem from="1527438805746" duration="8641000" />
       <workItem from="1527453688499" duration="8425000" />
       <workItem from="1527463094132" duration="4483000" />
-      <workItem from="1527539639735" duration="2002000" />
+      <workItem from="1527539639735" duration="2410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208221000" />
+    <option name="totallyTimeSpent" value="208629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1081" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19010417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -465,7 +496,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903865" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5402185" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5402185" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -803,7 +834,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/orders/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="44" lean-forward="true" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+          <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -811,7 +842,7 @@
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
-          <caret line="55" column="51" lean-forward="true" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
+          <caret line="55" column="51" lean-forward="false" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -819,7 +850,7 @@
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -859,15 +890,7 @@
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5">
-          <caret line="3" column="72" lean-forward="true" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="3" column="72" lean-forward="false" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
           <folding />
         </state>
       </provider>
@@ -876,6 +899,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="80" column="83" lean-forward="false" selection-start-line="80" selection-start-column="83" selection-end-line="80" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
           <folding />
         </state>
       </provider>
