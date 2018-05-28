@@ -7,10 +7,8 @@ end
 
 gem 'rails'
 gem 'pg'
-gem "passenger"
-gem "sqlite3"
 gem 'sass-rails', '~> 5.0'
-gem 'uglifier't
+gem 'uglifier'
 gem 'twitter-bootstrap-rails'
 gem 'bootstrap-sass'
 gem 'execjs'
@@ -23,7 +21,6 @@ gem 'turbolinks'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'jquery-slick-rails'
-gem 'sunspot_rails'
 
 
 group :development, :test do
@@ -35,6 +32,7 @@ group :development do
   gem 'rails-erd'
   gem 'railroady'
   gem 'sunspot_solr'
+  gem 'sunspot_rails'
   gem 'sunspot'
   gem 'nifty-generators'
   gem 'web-console', '>= 3.3.0'
