@@ -8,6 +8,7 @@ end
 gem 'rails'
 gem 'pg'
 gem 'sass-rails', '~> 5.0'
+gem 'puma'
 gem 'uglifier'
 gem 'twitter-bootstrap-rails'
 gem 'bootstrap-sass'
