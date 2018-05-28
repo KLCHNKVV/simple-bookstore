@@ -22,6 +22,8 @@ gem 'turbolinks'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'jquery-slick-rails'
+gem 'sunspot_solr'
+gem 'sunspot_rails'
 
 
 group :development, :test do
@@ -32,8 +34,6 @@ end
 group :development do
   gem 'rails-erd'
   gem 'railroady'
-  gem 'sunspot_solr'
-  gem 'sunspot_rails'
   gem 'sunspot'
   gem 'nifty-generators'
   gem 'web-console', '>= 3.3.0'

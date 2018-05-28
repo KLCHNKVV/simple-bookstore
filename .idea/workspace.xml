@@ -2,49 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6373daa8-29ad-495e-8b26-f42fb5d4347b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_0.fdt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_0.fdx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_0.fnm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_0.nvd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_0.nvm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_0.si" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_0_Lucene50_0.doc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_0_Lucene50_0.pos" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_0_Lucene50_0.tim" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_0_Lucene50_0.tip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_2.fdt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_2.fdx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_2.fnm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_2.nvd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_2.nvm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_2.si" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_2_Lucene50_0.doc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_2_Lucene50_0.pos" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_2_Lucene50_0.tim" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_2_Lucene50_0.tip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_4.fdt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_4.fdx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_4.fnm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_4.nvd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_4.nvm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_4.si" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_4_Lucene50_0.doc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_4_Lucene50_0.pos" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_4_Lucene50_0.tim" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_4_Lucene50_0.tip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_7.fdt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_7.fdx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_7.fnm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_7.nvd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_7.nvm" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_7.si" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_7_Lucene50_0.doc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_7_Lucene50_0.pos" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_7_Lucene50_0.tim" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/_7_Lucene50_0.tip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/development/data/index/segments_9" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/solr/pids/development/sunspot-solr-development.pid" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -97,7 +56,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/store/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="31">
               <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
               <folding />
             </state>
@@ -109,16 +68,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
               <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5">
-              <caret line="3" column="72" lean-forward="false" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -154,26 +103,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile.lock" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rakefile" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Rakefile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="production.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -184,11 +113,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="271">
-              <caret line="55" column="51" lean-forward="false" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rakefile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Rakefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -257,8 +196,8 @@
         <option value="$PROJECT_DIR$/app/controllers/line_items_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/Rakefile" />
       </list>
     </option>
@@ -310,7 +249,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="production&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/config/environments/production.rb&#10;Rake&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/Rakefile&#10;gemfile&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/Gemfile&#10;Gemfil&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/Gemfile&#10;develop&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/config/environments/development.rb&#10;appli&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/views/layouts/application.html.erb&#10;cart&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/controllers/carts_controller.rb&#10;Line&#9;null&#9;null&#10;product.rb&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/models/product.rb&#10;store&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/controllers/store_controller.rb&#10;new&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/views/sessions/new.html.erb&#10;_form&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/views/orders/_form.html.erb&#10;da&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/config/database.yml&#10;data&#9;ACTION&#9;ActivateDatabaseToolWindow&#10;schema&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/db/schema.rb&#10;sunspot&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/config/sunspot.yml&#10;production.r&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/config/environments/production.rb&#10;Gemfile&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/Gemfile&#10;database&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/config/database.yml&#10;app&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/views/layouts/application.html.erb&#10;_edit&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/views/users/_edit_form.html.erb&#10;_for&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/views/orders/_form.html.erb&#10;order&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/controllers/orders_controller.rb&#10;producs&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/assets/stylesheets/products.scss&#10;appl&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/assets/stylesheets/application.scss&#10;index&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/views/store/index.html.erb&#10;user.rb&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/models/user.rb&#10;pr&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/controllers/products_controller.rb&#10;_edi&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/views/users/_edit_form.html.erb&#10;users&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/controllers/users_controller.rb&#10;users_controller&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/controllers/users_controller.rb&#10;rails_ad&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/config/initializers/rails_admin.rb&#10;cart.rb&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/models/cart.rb&#10;users.&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/assets/stylesheets/users.scss&#10;user&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/controllers/users_controller.rb&#10;sche&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/db/schema.rb&#10;conf&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/views/user_mailer/registration_confirmation.html.erb&#10;regist&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/views/user_mailer/registration_confirmation.html.erb&#10;sess&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/controllers/sessions_controller.rb&#10;lib/tas&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/lib/tasks&#10;Rakefile&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/Rakefile&#10;schem&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/db/schema.rb&#10;route&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/config/routes.rb&#10;rout&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/config/routes.rb&#10;prod&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/controllers/products_controller.rb&#10;product&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/controllers/products_controller.rb&#10;sch&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/db/schema.rb&#10;store.&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/assets/stylesheets/store.scss&#10;form&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/views/products/_form.html.erb&#10;ap&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/assets/stylesheets/application.scss" />
+    <property name="SearchEverywhereHistoryKey" value="Rake&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/Rakefile&#10;production&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/config/environments/production.rb&#10;gemfile&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/Gemfile&#10;Gemfil&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/Gemfile&#10;develop&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/config/environments/development.rb&#10;appli&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/views/layouts/application.html.erb&#10;cart&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/controllers/carts_controller.rb&#10;Line&#9;null&#9;null&#10;product.rb&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/models/product.rb&#10;store&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/controllers/store_controller.rb&#10;new&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/views/sessions/new.html.erb&#10;_form&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/views/orders/_form.html.erb&#10;da&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/config/database.yml&#10;data&#9;ACTION&#9;ActivateDatabaseToolWindow&#10;schema&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/db/schema.rb&#10;sunspot&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/config/sunspot.yml&#10;production.r&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/config/environments/production.rb&#10;Gemfile&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/Gemfile&#10;database&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/config/database.yml&#10;app&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/views/layouts/application.html.erb&#10;_edit&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/views/users/_edit_form.html.erb&#10;_for&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/views/orders/_form.html.erb&#10;order&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/controllers/orders_controller.rb&#10;producs&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/assets/stylesheets/products.scss&#10;appl&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/assets/stylesheets/application.scss&#10;index&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/views/store/index.html.erb&#10;user.rb&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/models/user.rb&#10;pr&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/controllers/products_controller.rb&#10;_edi&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/views/users/_edit_form.html.erb&#10;users&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/controllers/users_controller.rb&#10;users_controller&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/controllers/users_controller.rb&#10;rails_ad&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/config/initializers/rails_admin.rb&#10;cart.rb&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/models/cart.rb&#10;users.&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/assets/stylesheets/users.scss&#10;user&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/controllers/users_controller.rb&#10;sche&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/db/schema.rb&#10;conf&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/views/user_mailer/registration_confirmation.html.erb&#10;regist&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/views/user_mailer/registration_confirmation.html.erb&#10;sess&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/controllers/sessions_controller.rb&#10;lib/tas&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/lib/tasks&#10;Rakefile&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/Rakefile&#10;schem&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/db/schema.rb&#10;route&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/config/routes.rb&#10;rout&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/config/routes.rb&#10;prod&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/controllers/products_controller.rb&#10;product&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/controllers/products_controller.rb&#10;sch&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/db/schema.rb&#10;store.&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/assets/stylesheets/store.scss&#10;form&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/views/products/_form.html.erb&#10;ap&#9;FILE&#9;file:///home/klchnkvv/main/dont_even_try/diploma/simple-bookstore/app/assets/stylesheets/application.scss" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
     <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
@@ -478,15 +417,16 @@
       <workItem from="1527438805746" duration="8641000" />
       <workItem from="1527453688499" duration="8425000" />
       <workItem from="1527463094132" duration="4483000" />
-      <workItem from="1527539639735" duration="2410000" />
+      <workItem from="1527539639735" duration="2569000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208629000" />
+    <option name="totallyTimeSpent" value="208788000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1081" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19010417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -496,7 +436,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903865" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5402185" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5402185" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -783,7 +723,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/store/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="31">
           <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding />
         </state>
@@ -793,6 +733,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -839,22 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="55" column="51" lean-forward="false" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/line_items_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -887,10 +812,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="3" column="72" lean-forward="false" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
+        <state relative-caret-position="271">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="55" column="51" lean-forward="false" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -905,8 +846,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="57">
+          <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
           <folding />
         </state>
       </provider>
