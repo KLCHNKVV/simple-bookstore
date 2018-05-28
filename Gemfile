@@ -7,9 +7,10 @@ end
 
 gem 'rails'
 gem 'pg'
-gem 'puma', '~> 3.7'
+gem "passenger"
+gem "sqlite3"
 gem 'sass-rails', '~> 5.0'
-gem 'uglifier'
+gem 'uglifier't
 gem 'twitter-bootstrap-rails'
 gem 'bootstrap-sass'
 gem 'execjs'

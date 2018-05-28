@@ -6,7 +6,7 @@ class StoreController < ApplicationController
     @search = Product.search do
       fulltext params[:search]
     end
-    #@products = Product.order(sort_column + " " + sort_direction)
+    @products = Product.order(sort_column + " " + sort_direction)
     @products = @search.results
   end
 
