@@ -24,7 +24,7 @@ gem 'jquery-ui-rails'
 gem 'jquery-slick-rails'
 gem 'sunspot_solr'
 gem 'sunspot_rails'
-
+gem 'listen'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
