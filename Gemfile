@@ -23,6 +23,7 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'jquery-slick-rails'
 gem 'sunspot_solr'
+gem 'redis'
 gem 'sunspot_rails'
 gem 'listen', '>= 3.0.5', '< 3.2'
 
